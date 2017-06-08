@@ -1,0 +1,19 @@
+.main {
+	color: rgb(51, 153, 255);
+}
+
+.background {
+	background-color: white;
+}
+
+.light {
+	color: rgb(204, 204, 204);
+}
+
+.heavy {
+	color: rgb(178, 178, 178);
+}
+
+.danger {
+	color: rgb(234, 68, 91);
+}

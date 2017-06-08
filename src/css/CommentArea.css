@@ -1,0 +1,50 @@
+.main {
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 20px;
+}
+
+.mainSeparator {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+  margin-right: 25px;
+  margin-top: 25px;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+.textarea {
+	outline: none;
+	resize: none;
+	width: 100%;
+	border: 2px solid rgb(219, 219, 219);
+	border-radius: 3px;
+	height: 45px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*::-webkit-input-placeholder {
+	color: rgb(210, 210, 210);
+	padding: 10px;
+	font-style: italic;
+}
+
+*:-moz-placeholder {
+  color: rgb(210, 210, 210);
+	padding: 10px;
+	font-style: italic;
+}
+
+*::-moz-placeholder {
+  color: rgb(210, 210, 210);
+	padding: 10px;
+	font-style: italic;
+}
+
+*:-ms-input-placeholder {
+  color: rgb(210, 210, 210);
+	padding: 10px;
+	font-style: italic;
+}

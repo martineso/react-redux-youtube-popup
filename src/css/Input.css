@@ -1,0 +1,31 @@
+.wrapper {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.wrapper * {
+	width: 90%;
+	margin: auto;
+	display: block;
+}
+
+.input {
+	-webkit-appearance: none;
+	border: 2px solid rgb(242, 242, 242);
+	border-radius: 5px;
+	width: 90%;
+	padding: 5px;
+	height: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.input:focus {
+	outline: none;
+	border-color: rgb(191, 191, 191);
+}
+
+.label {
+	font-size: 2em;
+}

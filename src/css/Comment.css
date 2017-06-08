@@ -1,0 +1,57 @@
+.common {
+	margin: 0;
+}
+
+.mainWrapper {
+	padding-top: 20px;
+}
+
+.commentTop {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.textFrame {
+	border-left: 5px solid rgb(230, 230, 230);
+	box-sizing: content-box;
+}
+
+.titleWrapper {
+	margin-left: 10px;
+	display: inline-block;
+	position: absolute;
+	top: 4px;
+}
+
+.avatar {
+	border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.author {
+	composes: common;
+	color: rgb(94, 196, 222);
+	font-family: 'Ubuntu';
+	font-size: 0.95em;
+}
+
+.date {
+	composes: common;
+	margin-top: 4px;
+	font-size: 0.45em;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(204, 204, 204);
+}
+
+.text {
+	padding: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.8em;
+	margin: 0;
+	color: rgb(70, 69, 69);
+}
